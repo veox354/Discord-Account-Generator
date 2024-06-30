@@ -1,4 +1,5 @@
 const botSettings = require("./botsettings.json");
+const keep_alive = require('./keep_alive.js')
 const Discord = require("discord.js");
 const download = require('download-file');
 const fs = require("fs");
